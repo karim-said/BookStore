@@ -3,11 +3,11 @@ using System.Linq;
 using System.Threading.Tasks;
 using BookStore.Domain.Interfaces;
 using BookStore.Domain.Models;
-using BookStore.Infrastructure.Context;
+using BookStore.Infrastucture.Context;
 using Microsoft.EntityFrameworkCore;
 
 
-namespace BookStore.Infrastructure.Repositories
+namespace BookStore.Infrastucture.Repositories
 {
     public class BookRepository : Repository<Book>, IBookRepository
     {
